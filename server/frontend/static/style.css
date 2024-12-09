@@ -124,3 +124,48 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: #333;
+    padding: 10px;
+}
+
+header nav ul li {
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav ul li a.active {
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.contact-details h3 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}

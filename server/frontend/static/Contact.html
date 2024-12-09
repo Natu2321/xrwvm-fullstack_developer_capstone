@@ -1,0 +1,66 @@
+<html>
+<head>
+  <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
+      <div class="banner" name="about-header">
+              <!-- Insert header information here -->
+              <h1>Contct Us</h1>
+      </div>
+      <div style="display: flex;flex-direction: row; margin:left">
+      <div class="card" style="width: 400px;">
+        <img class="card-img-top" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALcAwQMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAwUBBAYHAv/EAEkQAAAFAgMCCQYIDAcAAAAAAAABAgMEBREGEhMhMRQiQVFSU2FxkQcXMzSB0RUyVWJyk6LSFiMmQkVUVpShscHwJTZGY5Ky4f/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EACMRAQEAAgICAQUBAQAAAAAAAAABAhEDEiFBExQiMTNhMgT/2gAMAwEAAhEDEQA/APJwAB9F84AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH20RKcSk9xmRAPgB0b7FOhNNk6hRqUVxBr0rqzE2ulGAvNek9WYa9K6sw2aUYC816T1Zhr0rqzDZpRgLzXpHVmGvSerMNmlGAvNeldWYa9I6sw2aUYC816T1ahPETS5TmmTZkZ7g2ac4AnmtJZkuIRuI9ggAAABUAAAAAAAAAAAAAASMenT3iMSMenT3hfwsW2INqmSLflIfcDC1RnRtdpri7+8KwV5MUj3GRDra9VJNKp8AoewjSVyLlGLfTcntwyKLNXOOIlszdLeNupYXqNPYJx1vico67DU1ydLky3m8ryUX2l2Calzn6lT6g3LVmSgztcZ7VZjHCvUGa1BTMU0ZNHuMTRMLz5SELbTsXuHpbKmJGH24DqU3WniilxKqRSIUNCDyGSt5cwd16OYl4MqcVlTzqbJIt4qWKRJkMOPITdDew7DtcZVKWdOhJQ4dnEFftF3hmCUeg8GcauuSn41g7WflOsv4eWU+nPz5BMMINSr2FnKwnUoykEtvYrcY6bDMQ6fPqR5fxiLmnYKiRieomh9pSVKIlHZVtwva2+E6zXlB+BFVJrVy8UV9MjuRqppO/GTsHZHV5Z4O1dU8/OOLpDrj9TJx07qO+0Jv2XXpqVP15zvMag26n6853mNQbjFAABUAAAAAAAAAAAAAASMenT3iMSM+mT3hfwsW9dUaXWVFvIiMdRT8SUeRAZbqSMzrBbLjlMQ72foinGesrXax2sTFUdisrcJsijKKxpLmG9VMSUpiC61S27Leuah54AnSbO907J3EhKZh6ObOydzsNjF2JGKyxFS0lWZu2caGBorUl2RqozESOUbuHIDDy6iTjaTykeUhmyNS1r1KrMTyhIShSiZtmFw9j4ozzLLLP4tsiLaQ26XCiwqRwlmIUh3Mdy5hxOKXm3pd0R9A+UrWCSZFtx8ujTiyEmrqkGm7bybLIa9frlIKCtmnM2W7tNRjhwGukZ71051pk8MnBL0hncVVCP/ECFaLKg+vJF1qJvdQVP113vMag26n6673mNQVAAAVAAAAAAAAAAAAAAEjHp094jH20dnEnzGQixbYh3s/RFMOnqMFM5DLiHUlZJEZGY0fgJXXo8RItUwzvFx8Bq69HiHwErr0eIu4mqssASmmagtp5eUnE2uOnbp7NDizZD0hBpeuaSI9u0cQijONGSm5CEmW0tonegzH0El2bnTzZhi4+W5XT4ejzybJ2JMTpKVc0GfJcVflEciqdZ0zSbxFZZp5xWsw5jBZWZpILsMQO0h19ZqdlJWrtMSTVW3c0owFz8BK69HiHwErr0eI6bjnpTCyoPryRP8Bq69HiNymUsoj5OOPoskucSrFLU/XnO8xqDZqKiVMdsdyvsMawsSgAAqAAAAAAAAAAAAAAADKUmpRJQk1KM7EkiuZmIPsnXCKxLMiDWc6SvEbzeH646kjZolTcvuNMNwy/kJk4UxIr9AVX9zc9wm431yVeu50leIa7nSV4i1PCeJP2fqv7m57hpzqRVKcgl1CmzYiFHZK5EdbaTO196i5glhqtbWc6SvENZzpK8Rb07CWIapFRJp9HlvR1/FcJFiUXZe1xtfgDi35Bl/Z94XPGezrlXPaznSV4hrL6SvEdD+AOLS/QEvwT7xBLwXiaGwt+TQpqGUEZqUTdyIuUztfZ2idsb7OmSl1nOkrxDXc6SvEbVMpNRrDqmqZCkS3EpzKSyg1GRc5iz/AjFP7P1D6kxe2M9p1qi1nOkrxA3V8qj8RdKwbihP+n6l7I6jEKsJ4lT8agVX9ycP+RB2xOtVB7dowNiZDlwXjYmxX4zxFc25DZoWRdyrDXFSwAAFQAAAAAAAAAAAAAB23kjSR4qW7lLM3FUaT5UmZpL+p+I4kdv5Jf8xSL/AKqr/skcee6467cH7I9RqWKYlIfis1GcbTkpZIaRtMzudrnbcXaYt+FPJuROruW/aPAPKdGkO49U3LdJtl/SJp1z4qG7ERn3EeYe3QmVRobDC5ByHGm0pU6ve4ZFa59pj5Oc1jK+nPNqy4S9a+qvb2jkPLEs3sCtKcUZqTPQe07/AJqi/qOnSewch5XXfyQQ2X62hX8FDfBb8mLPLJ0roMNynWsO0pBLsRRGiL/gQrajjpiLNOBAamVOan47UNGYm/pKvYvYKusVNykeTpEyOZpfKEyhtXKg1ESb+y4pnETKK3RcK4cU3HnTmteXNUm6t1zPaW3crusRbBNXdampjHT+cByI+hNcptSpjSzIieeQSm0mfOoj2Dpl1NyRCdJLudt1lVjI9hkad5DzmF8PtYwYoFZqCKjT3Yrjjl46E6yLGVlbNllcx8wssBrU1TqxTs5rZp06RGYMzuemW4rhZdzR40o/IktbUypqQvKrRaLZv3q9w9ZOU/1i/Ex495I3FMnWnUWzIjJUV91yzClhxaiuFHxHXZNSmUmZm13Isg0uRlEs03NO4y2d3dYr9f8Aoxt5L5cuGyYTw944U/m9IveXKYmTKfyn+NX4jy13D+FGqOVXXiGpcBMtjiZpnc+iRWuZ9m/sHMFHrEKOjE9OfnQqYmQ2mMzKkmtx9Jq3mW7KZcn8945TH+u1v8W3lqUa8UxHFHc1U9Fz5di3B5+O/wDLMf5QwCK3qCdxf7ixwA+rwfrj5XN/ugAA6uQAAAAAAO980+IP1mm/Wr+4B+SfEBbeE0761f3B7RmSPrOkeD6nN7vgxeJ+arEHX0/61f3A81GIOvp/1q/uD2s5DaekI11GO38ZLnsTcPqcj6fF4yXknxFf09P+tX90dBhLA9UwvPcnVF+IptbRtJJlalKJRmR8qS6Jju38RwWL5mpZ26LRmKWqYugTEojtMzW3Eqz5nmTSk9nPftHPk58ssbG8OGTKVUY9wsjE9NImTSifHubC1HsVfegz5j2d1u8cdhzygTcNIXRsSQn18FSaG7EROItuSd95dt+bePQ2ak3clZhp1qHRa4gm6nEakEkuKs7pUkr8iisZbt1x5cM/Gso9WWG79tUmDvKU7W6m3TZlOUh15R6Tkc7kktp8Yj5ukR+wdJi+gS8UQPgyA8w28nK9mfUZJsRmXIR840qFTaDQCUqnRkNuL2G4pRqUfZc72LuF/S6qyzUlPqQ6to45JI2k3LNmuNTKTOXH0lx3jZkqKzh9cnBq6C6ts5CI6GyUSjJOqgisd+YzIuQcimRLrEilzYL8eHiekIOPJhzTy6ybWuXOW09nb2Ffu5NWiOSXV6hIzLM7LKx7TFPWIlBrRkdSjR3ztscuaVeJbf4jMy1bteniaUEqPiSmVVWI51QopSHYymFIedNKI6blYk9Ln9pjscL0lqnUZuM1IKS7IzOuyVbnXF71d27ttYUETDeEYrxLahR1qtvecU4RexR2HSsVSE1pJJwrFYkoaTc+4iIv/Ayy3rSzHUqmwtgWpYVaqHDX4rxymNNtLJq2GV99yLnHnVHqsVceJQ8USHYNLpqlKXFQ2o1SXDWpVl2LYRXtb+y9vrGIojxtoJDzRpMzzOoypP23FaqrwTIzNxoz7bDeXL929OeHHrHTgCleTJNTVNM3ltne0Q2nNFKj3qJOXfb2eBCkl1LWWnDWHpTlSpkiQ27HbcbUS45kranb+b/fPf1tNUgqIrON39g2G6lC5HWiPwE+X+NXBSY2wFUcU1CLOiS4rTbcYmTJ7Ne5KUd9hHzjnPM7WvlKn/b9w9npic8BpSTIyO53v2jYNH93Hq4+fKYyPLnw43K7eI+Z2tfKVP8At+4PM7WPlKD9v3D2wyGOKNfUZs/Bi8V8ztY+UoP2/cHmdrHylB+37h7VxRi4fPmfBi8V8ztY+UoP2/cA9puAfPmfBi1uL80Zun5ogJQ+sw87um4vYMkafmiHMM5gE5Gn5o+iUnsGvcfRKFGwSx9ag1swZgRtZ/nDGca+YZuA2MwZxBmGc4CfOGYa+YMwDYzfRGc/0RrXGcwCfOGZQhzjGcUT3+cMXEJqGMwCY/YPmwjzBcBJbuCwjzBmASWAR3ABrE2npDOmnpCPMM5g0JCQkfWRIizjJOJDQkyJGciRHqBqAJMqRmyRFqJDOkBLZIzZIi1EjGokBNYZEOdIZ0gJuKM8UQZ0hnFE/FAiEBLGdQBMMcURag+TWGhOeUY4ohzgbgaRNxQuIdXYMaiQ0J7hcQagzqAJrgINQAFXwkZ4SKwnBnUGdrpZcKGeEitzjOcNixKUM8KFdnGc4bFjwkOEivJYzqBsWHCBnhArycGdQBv8IDhArycGdQU0sNcOEDQ1RnVAbvCBnhA0NQfWoA3tcNcaGoGqG0b+uGuNDVDWDY3zeGNcaGsGskBYa4a4ryeSMm+kBv6wCv1wA0rCcGc4AMtGoGqAAGoM6gAAagzqAADOqGqAAGqGoYAAE6M6oAAxrAT4yAoawwbwACGqGoAAMagybgAAxqBqAADGoAAA/9k=" alt="Card image">
+        <div class="card-body">
+       
+    <h1>Contact Us</h1>
+    <p>We’re here to help! Reach out to us anytime through the following:</p>
+    <div class="contact-info">
+        <h3>Email</h3>
+        <p>support@bestcars.com</p>
+        <h3>Phone</h3>
+        <p>+1 312-611-1111</p>
+        <h3>Address</h3>
+        <p>123 BestCars Street, Auto City</p>
+    </div>
+</div>
+
+      </div>
+
+          </div>
+    </div>
+    </div>
+    </div>
+    
+</div>
+<body>
+     <footer>
+        <p>&copy; 2024 BestCars Inc. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
